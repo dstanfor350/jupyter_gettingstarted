@@ -13,11 +13,23 @@ jupyter:
 ---
 
 ```python
-print("Hello 1")
+python --version
 ```
 
 ```python
-print("World")
+import asyncio
+```
+
+```python
+async def main():
+    print('hello')
+    await asyncio.sleep(2)
+    print('world')
+    
+```
+
+```python
+await main()
 ```
 
 ```python
